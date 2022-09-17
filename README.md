@@ -7,4 +7,9 @@
 
 <strong>Note</strong> - Keep in mind, this was made to test my knowledge in python3. 
 
+--- <strong>SETUP</strong> ---
+
+- chmod +x setup.sh
+- ./setup.sh
+- python3 scriptname.py
 
