@@ -107,14 +107,14 @@ def hostAvailable(host, port):
 def ssh_banner():
 	hostAvailable(IP, 22)
 	os.system('clear')
-	print(Fore.RED + f'-- BRUTEFORCING SSH ---')
+	print(color.RED + f'-- BRUTEFORCING SSH ---' + color.BOLD + color.END)
 	print('\033[39m')
 	print(f'''
 IP - {IP}
 Wordlist - {args.w}
 User - {user}
 		''')
-	print(Fore.RED + f'----------------------')
+	print(color.RED + f'----------------------' + color.BOLD + color.END)
 	print('\033[39m')
 
 def ssh_threaded():
